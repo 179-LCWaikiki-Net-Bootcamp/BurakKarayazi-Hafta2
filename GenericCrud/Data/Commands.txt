@@ -1,0 +1,3 @@
+﻿dotnet ef database update --project GenericCrud --startup-project GenericCrud -c DataContext
+
+dotnet ef migrations add InitialCreate --project GenericCrud --startup-project GenericCrud -c DataContext --verbose
